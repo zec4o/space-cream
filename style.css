@@ -67,7 +67,6 @@ p:nth-child(1) {
 }
 
 .cards {
-  cursor: pointer;
   animation: rightleft 1s ease;
   display: grid;
   gap: 3.2rem;
@@ -75,6 +74,7 @@ p:nth-child(1) {
 }
 
 .cards .card {
+  cursor: pointer;
   position: relative;
   width: 32rem;
   height: fit-content;
